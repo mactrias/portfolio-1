@@ -1,0 +1,39 @@
+# Ignorar archivos de construcción y dependencias
+/node_modules
+/build
+.DS_Store
+
+# Ignorar archivos de configuración específicos del editor
+.vscode
+.idea
+
+# Ignorar archivos generados en tiempo de ejecución
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos de configuración local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar archivos de compilación de TypeScript
+*.tsbuildinfo
+
+# Ignorar archivos de dependencias generados por TypeScript
+/node_modules/@types
+
+# Ignorar archivos de compilación de Babel
+/dist
+/lib
+
+# Ignorar archivos generados por Jest
+/coverage
+
+# Ignorar archivos de compilación de Next.js
+.next
+out
+
+# Ignorar archivos de compilación de Gatsby
+.cache
+/public
