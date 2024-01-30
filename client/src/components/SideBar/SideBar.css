@@ -1,0 +1,46 @@
+.sidebar-section {
+  display: flex;
+  background-color: #030303da;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: rgb(7, 7, 7);
+  width: 95px;
+  position: fixed;
+}
+
+.sidebar-expanded {
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(7, 7, 7);
+  position: fixed;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow: hidden;
+}
+
+.icon-for-sidebar-modified {
+  display: flex;
+
+  justify-content: right;
+  cursor: pointer;
+}
+
+.icon-for-sidebar-modified p svg {
+  padding: 4px;
+  color: orangered;
+  margin-top: 50px;
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+  .sidebar-expanded {
+    display: none;
+  }
+}

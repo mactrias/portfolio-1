@@ -1,0 +1,26 @@
+.work-experience-section {
+  margin-top: 70px;
+}
+
+.tech-skills p {
+  background-color: orangered;
+  border-radius: 40px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.tech-skills p:hover {
+  cursor: pointer;
+  background-color: black;
+  color: orangered;
+  transition-duration: 1s;
+}
+
+.date-class {
+  color: orangered;
+}
+
+.timeline-section {
+  margin-top: 20px;
+}

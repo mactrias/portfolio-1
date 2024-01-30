@@ -1,0 +1,42 @@
+.about-section {
+  box-shadow: 7px 10px 29px -7px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 7px 10px 29px -7px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 7px 10px 29px -7px rgba(0, 0, 0, 0.36);
+  height: 500px;
+  margin-top: 10px;
+}
+
+.about-image {
+  margin-top: 100px;
+  text-align: center;
+}
+.about-image img {
+  border: 2px solid orangered;
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 190px;
+}
+
+.about-details {
+  margin-top: 100px;
+}
+
+.about-title h5 {
+  color: orangered;
+  text-align: center;
+}
+
+.line {
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 1px auto;
+  background-color: brown;
+}
+
+@media (max-width: 1000px) {
+  .about-section {
+    height: auto;
+  }
+}

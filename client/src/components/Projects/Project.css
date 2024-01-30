@@ -1,0 +1,70 @@
+.project-List {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 10px 29px -7px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 7px 10px 29px -7px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 7px 10px 29px -7px rgba(0, 0, 0, 0.36);
+}
+
+.project-List-open {
+  border-left: 5px solid orangered;
+}
+
+.project-List:hover {
+  cursor: pointer;
+  border-left: 5px solid orangered;
+  transition-duration: 0.5s;
+}
+
+.title-collapse-option {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.tech-used-in-project {
+  margin-top: 20px;
+  margin: 5px;
+}
+
+.tech-used-in-project p {
+  background-color: orangered;
+  color: white;
+  border-radius: 90px;
+  padding: 8px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.tech-used-in-project p:hover {
+  background-color: black;
+  color: orangered;
+  transition: 1s;
+}
+
+.link-btn {
+  background-color: brown;
+  border-radius: 90px;
+  padding: 8px;
+  width: fit-content;
+  color: white;
+}
+
+.link-btn a {
+  color: inherit;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+.link-btn:hover {
+  background-color: black;
+  color: orangered;
+  transition: 1s;
+}
+
+.description {
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}

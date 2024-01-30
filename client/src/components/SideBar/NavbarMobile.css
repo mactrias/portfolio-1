@@ -1,0 +1,52 @@
+.mobile-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  margin-top: -1px;
+}
+
+.navbar-header {
+  width: 100%;
+  background-color: rgb(155, 78, 50);
+  color: white;
+  padding: 5px;
+}
+
+.navbar-header p svg {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.mobile-side {
+  height: auto;
+  width: 210px;
+  background-color: rgb(155, 78, 50);
+  margin-top: 1px;
+}
+
+.mobile-side ul li {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.mobile-side ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item-mobile .active {
+  color: black;
+  background-color: #c2d611;
+  border-radius: 90px;
+  padding: 5px;
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .mobile-navbar {
+    display: none;
+  }
+}
